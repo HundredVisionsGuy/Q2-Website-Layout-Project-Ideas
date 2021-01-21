@@ -1,0 +1,18 @@
+ul.nav {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+.nav li {
+    border: 1px solid var(--shade4-light);
+}
+.nav a {
+    display: block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    background-color: var(--shade4-med-dark);
+    color: var(--bg-color);
+}
+.nav a:hover {
+    background-color: var(--shade4-med-light);
+}
