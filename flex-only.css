@@ -1,0 +1,24 @@
+main {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    flex-direction: column;
+}
+section#header {
+    width: 90vw;
+    max-width: 40rem;
+    margin: 1rem auto;
+}
+nav#global-nav {
+    width: 90vw;
+    margin: 1rem auto 0 auto;
+}
+article.page {
+    padding: 0;
+    margin: 0;
+}
+footer {
+    padding:.5rem 1rem;
+}
