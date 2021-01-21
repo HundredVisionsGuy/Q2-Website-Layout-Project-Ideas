@@ -16,3 +16,8 @@ ul.nav {
 .nav a:hover {
     background-color: var(--shade4-med-light);
 }
+@media screen and (min-width: 960px) {
+    ul.nav {
+        flex-direction: row;
+    }
+}
