@@ -22,3 +22,15 @@ article.page {
 footer {
     padding:.5rem 1rem;
 }
+@media screen and (min-width: 900px) {
+    header {
+        display: flex;
+        flex-direction: row;
+    }
+    section#header {
+        width: 30%;
+    }
+    nav#global-nav {
+        width: 70%;
+    }
+}
