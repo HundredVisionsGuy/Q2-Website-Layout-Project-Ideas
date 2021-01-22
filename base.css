@@ -6,6 +6,9 @@
     --bg-color: #F9F4FB;
     --text: #1F0E25;
     --header-colors: #6B317F;
+    --link: #6F3285 ;
+    --link-hover: #A457BF;
+    --link-visited: #532664;
     --shade1-dark: #6B317F;
     --shade1-med: #a457bf;
     --shade1-med-light: #b87ccd;
@@ -48,4 +51,13 @@ figure.box-right {
 }
 .box-right img {
     max-width: 100%;
+}
+a {
+    color: var(--link);
+}
+a:visited {
+    color: var(--link-visited);
+}
+a:hover {
+    color: var(--link-hover);
 }

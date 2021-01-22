@@ -1,3 +1,12 @@
+@media screen and (min-width: 800px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    ul.nav {
+        display: flex;
+    }
+}
 @media screen and (min-width: 960px) {
     main {
         margin: 0;
@@ -24,6 +33,9 @@
     }
     nav#global-nav {
         grid-area: navbar;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
     }
     article.page {
         grid-area: article;
