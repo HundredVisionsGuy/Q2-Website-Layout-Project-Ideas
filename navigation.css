@@ -17,6 +17,7 @@ ul.nav {
     background-color: var(--shade4-med-light);
 }
 @media screen and (min-width: 960px) {
+    /* Make the navbar horizontal */
     ul.nav {
         flex-direction: row;
     }
