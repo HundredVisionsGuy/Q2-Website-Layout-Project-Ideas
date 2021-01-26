@@ -1,12 +1,4 @@
-@media screen and (min-width: 800px) {
-    header {
-        display: flex;
-        justify-content: space-between;
-    }
-    ul.nav {
-        display: flex;
-    }
-}
+
 @media screen and (min-width: 960px) {
     main {
         margin: 0;

@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
@@ -21,7 +23,10 @@
                 <p class="lead">A mixed grid idea to spice up your home page.</p>
             </section>
             <nav id="global-nav">
-                <ul class="nav">
+                <span class="navbar-toggle" id="js-navbar-toggle">
+                    <i class="fa fa-bars" style="font-size: x-large;"></i>
+                </span>
+                <ul class="nav" id="js-menu">
                     <li><a href="index.html">home</a></li>
                     <li><a href="single-page.html">Single Page Grid</a></li>
                     <li><a href="odd-even-layout.html">odd-even layout</a></li>
@@ -57,6 +62,7 @@
             <p><a href="mailto:username@hsd.k12.or.us">Email me</a></p>
         </footer>
     </main>
+    <script src="scripts.js"></script>
 </body>
 
 </html>

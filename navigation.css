@@ -1,7 +1,22 @@
+header {
+    position: relative;
+}
+#js-navbar-toggle {
+    position: absolute;
+    top: 3rem;
+    right: 1rem;
+}
 ul.nav {
-    display: flex;
     flex-direction: column;
     list-style-type: none;
+    display: flex;
+    height: 0;
+    opacity: 0;
+    transition: all 1s ease-out 100ms;
+}
+ul.nav.active {
+    height: inherit;
+    opacity: 1.0;
 }
 .nav li {
     border: 1px solid var(--shade4-light);
@@ -16,9 +31,17 @@ ul.nav {
 .nav a:hover {
     background-color: var(--shade4-med-light);
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 900px) {
     /* Make the navbar horizontal */
     ul.nav {
         flex-direction: row;
+    }
+    /* move the toggle off the screen */
+    #js-navbar-toggle {
+        transform: translateX(50000px);
+    }
+    ul.nav {
+        height: inherit;
+        opacity: 1.0;
     }
 }
