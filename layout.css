@@ -1,4 +1,20 @@
-
+.landing-page {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.landing-page {
+    margin-bottom: 2rem;
+}
+.landing-page figure {
+    width: 25%;
+    max-width: 300px;
+    margin: 0;
+    padding: .5rem 1rem;
+}
+.landing-page figure img {
+    width: auto;
+}
 @media screen and (min-width: 960px) {
     main {
         margin: 0;
@@ -9,7 +25,10 @@
         grid-template-areas: 
         "header header header"
         ". article ."
-        "footer footer footer"
+        "footer footer footer";
+    }
+    main#home {
+        grid-template-columns: 2vw auto 2vw;
     }
     header {
         grid-area: header;

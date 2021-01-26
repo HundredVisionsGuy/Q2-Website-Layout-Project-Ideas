@@ -36,9 +36,9 @@ ul.nav.active {
     ul.nav {
         flex-direction: row;
     }
-    /* move the toggle off the screen */
+    /* hide the toggle */
     #js-navbar-toggle {
-        transform: translateX(50000px);
+        opacity: 0;
     }
     ul.nav {
         height: inherit;
